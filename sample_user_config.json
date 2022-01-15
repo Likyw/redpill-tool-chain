@@ -1,11 +1,17 @@
-{
-    "extra_cmdline": {
-        "pid": "0x0001",
-        "vid": "0x46f4",
-        "sn": "1234XXX123",
-        "mac1": "XXYYXXYYXXYY"
-    },
-    "synoinfo": {},
-    "ramdisk_copy": {},
-    "extensions": []
-}
+{ 
+ "extra_cmdline": { 
+ "vid": "0x0781", 
+ "pid": "0x5571", 
+ "sn": "1962PDN775509", 
+ "netif_num":"6", 
+ "mac1": "001132B42195", 
+ "mac2": "001132B42196" 
+ }, 
+ "synoinfo": { 
+ "maxlanport": "6" 
+ "maxdisks" : "16", 
+ "internalportcfg" : "0xfff", 
+ }, 
+ "ramdisk_copy": {}, 
+ "extensions": [] 
+ } 
